@@ -1,0 +1,23 @@
+:root {
+  --mention-border-color: rgba(180, 99, 122, 0.06);
+}
+
+/* ── Mentioned message: full rose border ────────────────────────── */
+.mentioned__5126c.groupStart__5126c {
+  border: 1.5px solid var(--mention-border-color) !important;
+  border-bottom: none !important;
+  border-radius: 6px 6px 0 0 !important;
+}
+.mentioned__5126c:not(.groupStart__5126c) {
+  border: 1.5px solid var(--mention-border-color) !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.mentioned__5126c:last-of-type,
+.mentioned__5126c + :not(.mentioned__5126c) {
+  border-bottom: 1.5px solid var(--mention-border-color) !important;
+  border-radius: 0 0 6px 6px !important;
+}
+.mentioned__5126c::before {
+  display: none !important;
+}
