@@ -2,7 +2,7 @@
   --mention-border-color: rgba(180, 99, 122, 0.06);
 }
 
-/* ── Mentioned message: full rose border ────────────────────────── */
+/* ── Mentioned message: full border ────────────────────────── */
 .mentioned__5126c.groupStart__5126c {
   border: 1.5px solid var(--mention-border-color) !important;
   border-bottom: none !important;
